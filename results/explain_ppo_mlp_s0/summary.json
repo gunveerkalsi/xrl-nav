@@ -1,0 +1,50 @@
+{
+  "model": "runs/ppo_mlp_s0/model.zip",
+  "algo": "ppo",
+  "continuous": false,
+  "attention": false,
+  "n_states_total": 2457,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 7.232822827063501e-05,
+  "top_groups_shapley": {
+    "goal_heading": 0.34279999136924744,
+    "lidar:front": 0.15929999947547913,
+    "motion": 0.1462000012397766,
+    "goal_distance": 0.11509999632835388,
+    "lidar:front-left": 0.09950000047683716
+  },
+  "surrogate_fidelity": 0.8414634146341463,
+  "surrogate_balanced_fidelity": 0.578745008043378,
+  "surrogate_majority_baseline": 0.8062330623306233,
+  "deletion_auc_k10": {
+    "occlusion": 0.4789,
+    "integrated_grads": 0.3994,
+    "group_shapley": 0.2878,
+    "random": 0.108,
+    "smoothgrad": 0.1054,
+    "gradient": 0.1041
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.557,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.034,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.814,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.82,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 16
+}

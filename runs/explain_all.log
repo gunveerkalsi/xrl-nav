@@ -1,0 +1,211 @@
+pybullet build time: Nov 15 2026 14:38:04
+collected 2457 states, analysing 400
+{
+  "model": "runs/ppo_mlp_s0/model.zip",
+  "algo": "ppo",
+  "continuous": false,
+  "attention": false,
+  "n_states_total": 2457,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 7.232822827063501e-05,
+  "top_groups_shapley": {
+    "goal_heading": 0.34279999136924744,
+    "lidar:front": 0.15929999947547913,
+    "motion": 0.1462000012397766,
+    "goal_distance": 0.11509999632835388,
+    "lidar:front-left": 0.09950000047683716
+  },
+  "surrogate_fidelity": 0.8414634146341463,
+  "surrogate_balanced_fidelity": 0.578745008043378,
+  "surrogate_majority_baseline": 0.8062330623306233,
+  "deletion_auc_k10": {
+    "occlusion": 0.4789,
+    "integrated_grads": 0.3994,
+    "group_shapley": 0.2878,
+    "random": 0.108,
+    "smoothgrad": 0.1054,
+    "gradient": 0.1041
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.557,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.034,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.814,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.82,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 16
+}
+pybullet build time: Nov 15 2026 14:38:04
+collected 2743 states, analysing 400
+/home/claude/xrl-nav/xrl_nav/explain/faithfulness.py:104: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = np.nanmean([spearmanr(A[k], B[k]).statistic for k in range(len(A))])
+{
+  "model": "runs/ppo_attention_s0/model.zip",
+  "algo": "ppo",
+  "continuous": false,
+  "attention": true,
+  "n_states_total": 2743,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 0.010538791306316853,
+  "top_groups_shapley": {
+    "goal_heading": 0.21889999508857727,
+    "motion": 0.10930000245571136,
+    "lidar:front": 0.0828000009059906,
+    "lidar:front-left": 0.06260000169277191,
+    "lidar:front-right": 0.05849999934434891
+  },
+  "surrogate_fidelity": 0.8651275820170109,
+  "surrogate_balanced_fidelity": 0.5451765725350631,
+  "surrogate_majority_baseline": 0.7083839611178615,
+  "deletion_auc_k10": {
+    "occlusion": 0.3108,
+    "integrated_grads": 0.295,
+    "group_shapley": 0.2894,
+    "smoothgrad": 0.1083,
+    "gradient": 0.1078,
+    "random": 0.068,
+    "attention": 0.1136
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.682,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.057,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.836,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.828,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 18
+}
+pybullet build time: Nov 15 2026 14:38:04
+collected 2727 states, analysing 400
+{
+  "model": "runs/dqn_mlp_s0/model.zip",
+  "algo": "dqn",
+  "continuous": false,
+  "attention": false,
+  "n_states_total": 2727,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 0.0035942690446972847,
+  "top_groups_shapley": {
+    "goal_heading": 0.020500000566244125,
+    "lidar:right": 0.00419999985024333,
+    "goal_distance": 0.003700000001117587,
+    "lidar:front-right": 0.003700000001117587,
+    "lidar:front": 0.003700000001117587
+  },
+  "surrogate_fidelity": 0.8266178266178266,
+  "surrogate_balanced_fidelity": 0.5693395997276836,
+  "surrogate_majority_baseline": 0.6788766788766789,
+  "deletion_auc_k10": {
+    "occlusion": 0.0338,
+    "integrated_grads": 0.0327,
+    "group_shapley": 0.0325,
+    "smoothgrad": 0.0302,
+    "gradient": 0.0299,
+    "random": 0.012
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.561,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.079,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.768,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.767,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 22
+}
+pybullet build time: Nov 15 2026 14:38:04
+collected 2644 states, analysing 400
+/home/claude/xrl-nav/xrl_nav/explain/faithfulness.py:104: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = np.nanmean([spearmanr(A[k], B[k]).statistic for k in range(len(A))])
+{
+  "model": "runs/ppo_mlp_cont_s0/model.zip",
+  "algo": "ppo",
+  "continuous": true,
+  "attention": false,
+  "n_states_total": 2644,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 6.881654553581029e-05,
+  "top_groups_shapley": {
+    "goal_heading": 1.1130000352859497,
+    "lidar:front-right": 0.9290000200271606,
+    "lidar:front-left": 0.4918999969959259,
+    "lidar:left": 0.2628999948501587,
+    "lidar:right": 0.20319999754428864
+  },
+  "deletion_auc_k10": {
+    "gradient": 0.4847,
+    "smoothgrad": 0.471,
+    "group_shapley": 0.3315,
+    "integrated_grads": 0.195,
+    "occlusion": 0.1552,
+    "random": 0.0696
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.672,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.167,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.799,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.798,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 6
+}
+ALLDONE

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xrl-nav"
+version = "1.0.0"
+description = "Explainable reinforcement learning for autonomous navigation (Gymnasium + PyBullet)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Team GHAR: Hitansh Jain, Rishi Dargad, Gunveer Kalsi, Adityavikram"}]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["xrl_nav*"]

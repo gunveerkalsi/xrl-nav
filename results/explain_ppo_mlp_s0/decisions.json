@@ -1,0 +1,487 @@
+[
+  {
+    "scenario": "corridor",
+    "outcome": "success",
+    "t": 26,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.3474700152873993,
+    "text": "Chose 'forward' (p=0.83). Main factors: the goal direction (6 deg to the right) supported it (+0.41); the front sector (obstacle at 1.5 m) argued against it (-0.28); the front-right sector (obstacle at 0.9 m) supported it (+0.22).",
+    "probs": [
+      0.826,
+      0.002,
+      0.171,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": -0.2792,
+      "lidar:front-left": -0.0253,
+      "lidar:left": 0.0686,
+      "lidar:back-left": 0.0392,
+      "lidar:back": 0.0009,
+      "lidar:back-right": 0.0907,
+      "lidar:right": 0.0282,
+      "lidar:front-right": 0.2247,
+      "goal_distance": -0.1681,
+      "goal_heading": 0.4106,
+      "motion": 0.1521
+    }
+  },
+  {
+    "scenario": "corridor",
+    "outcome": "success",
+    "t": 30,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.3173152208328247,
+    "text": "Chose 'forward' (p=0.79). Main factors: the goal direction (7 deg to the right) supported it (+0.41); the front sector (obstacle at 1.4 m) argued against it (-0.30); the front-right sector (obstacle at 1.0 m) supported it (+0.22).",
+    "probs": [
+      0.79,
+      0.002,
+      0.208,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": -0.2963,
+      "lidar:front-left": -0.049,
+      "lidar:left": 0.066,
+      "lidar:back-left": 0.0387,
+      "lidar:back": -0.0011,
+      "lidar:back-right": 0.0897,
+      "lidar:right": 0.03,
+      "lidar:front-right": 0.2224,
+      "goal_distance": -0.1593,
+      "goal_heading": 0.409,
+      "motion": 0.1559
+    }
+  },
+  {
+    "scenario": "corridor",
+    "outcome": "success",
+    "t": 77,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.7066839337348938,
+    "text": "Chose 'forward' (p=0.70). Main factors: the front sector (obstacle at 1.4 m) argued against it (-0.51); the goal direction (5 deg to the left) supported it (+0.40); the front-left sector (obstacle at 1.5 m) supported it (+0.18).",
+    "probs": [
+      0.699,
+      0.105,
+      0.104,
+      0.082,
+      0.009
+    ],
+    "shapley": {
+      "lidar:front": -0.506,
+      "lidar:front-left": 0.183,
+      "lidar:left": 0.0018,
+      "lidar:back-left": 0.0806,
+      "lidar:back": -0.0167,
+      "lidar:back-right": 0.0547,
+      "lidar:right": -0.0042,
+      "lidar:front-right": 0.0768,
+      "goal_distance": -0.0295,
+      "goal_heading": 0.4004,
+      "motion": 0.1741
+    }
+  },
+  {
+    "scenario": "corridor",
+    "outcome": "success",
+    "t": 81,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.9697593450546265,
+    "text": "Chose 'forward' (p=0.67). Main factors: the front sector (obstacle at 1.0 m) argued against it (-0.54); the goal direction (11 deg to the left) supported it (+0.34); the front-left sector (obstacle at 1.1 m) supported it (+0.17).",
+    "probs": [
+      0.671,
+      0.177,
+      0.047,
+      0.102,
+      0.003
+    ],
+    "shapley": {
+      "lidar:front": -0.5392,
+      "lidar:front-left": 0.1741,
+      "lidar:left": 0.0428,
+      "lidar:back-left": 0.0884,
+      "lidar:back": -0.016,
+      "lidar:back-right": 0.0386,
+      "lidar:right": 0.0366,
+      "lidar:front-right": 0.0701,
+      "goal_distance": -0.0135,
+      "goal_heading": 0.3439,
+      "motion": 0.1609
+    }
+  },
+  {
+    "scenario": "u_trap",
+    "outcome": "collision",
+    "t": 0,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.9456109404563904,
+    "text": "Chose 'fwd-left' (p=0.51). Main factors: the front-right sector (obstacle at 1.1 m) supported it (+0.26); the front-left sector (obstacle at 1.2 m) argued against it (-0.26); the right sector (obstacle at 1.1 m) supported it (+0.15).",
+    "probs": [
+      0.253,
+      0.508,
+      0.172,
+      0.051,
+      0.016
+    ],
+    "shapley": {
+      "lidar:front": -0.0022,
+      "lidar:front-left": -0.2583,
+      "lidar:left": 0.03,
+      "lidar:back-left": 0.0,
+      "lidar:back": 0.0,
+      "lidar:back-right": -0.0465,
+      "lidar:right": 0.1499,
+      "lidar:front-right": 0.2641,
+      "goal_distance": -0.0558,
+      "goal_heading": 0.0726,
+      "motion": 0.0
+    }
+  },
+  {
+    "scenario": "u_trap",
+    "outcome": "collision",
+    "t": 4,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.6798530220985413,
+    "text": "Chose 'forward' (p=0.32). Main factors: the front sector (obstacle at 0.7 m) argued against it (-0.52); the goal direction (29 deg to the right) supported it (+0.22); the goal distance (4.0 m) argued against it (-0.12).",
+    "probs": [
+      0.316,
+      0.237,
+      0.29,
+      0.031,
+      0.127
+    ],
+    "shapley": {
+      "lidar:front": -0.5152,
+      "lidar:front-left": 0.106,
+      "lidar:left": 0.0768,
+      "lidar:back-left": 0.0,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0673,
+      "lidar:right": 0.0375,
+      "lidar:front-right": 0.0739,
+      "goal_distance": -0.1244,
+      "goal_heading": 0.2166,
+      "motion": 0.0933
+    }
+  },
+  {
+    "scenario": "u_trap",
+    "outcome": "collision",
+    "t": 9,
+    "reasons": [
+      "near_miss",
+      "uncertain",
+      "pre_failure"
+    ],
+    "min_dist": 0.2943941056728363,
+    "text": "Chose 'fwd-right' (p=0.38). Main factors: the front-right sector (obstacle at 0.3 m) argued against it (-0.37); the front-left sector (obstacle at 0.7 m) supported it (+0.28); the goal direction (32 deg to the right) supported it (+0.23).",
+    "probs": [
+      0.168,
+      0.256,
+      0.377,
+      0.01,
+      0.189
+    ],
+    "shapley": {
+      "lidar:front": 0.0162,
+      "lidar:front-left": 0.2793,
+      "lidar:left": 0.0438,
+      "lidar:back-left": 0.0,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0063,
+      "lidar:right": 0.1116,
+      "lidar:front-right": -0.3692,
+      "goal_distance": -0.0067,
+      "goal_heading": 0.2286,
+      "motion": -0.0566
+    }
+  },
+  {
+    "scenario": "u_trap",
+    "outcome": "collision",
+    "t": 13,
+    "reasons": [
+      "near_miss",
+      "uncertain",
+      "oscillation",
+      "pre_failure"
+    ],
+    "min_dist": 0.03338686376810074,
+    "text": "Chose 'fwd-right' (p=0.38). Main factors: the front-right sector (obstacle at 0.0 m) argued against it (-0.38); the front-left sector (obstacle at 0.2 m) supported it (+0.30); the goal direction (34 deg to the right) supported it (+0.22).",
+    "probs": [
+      0.123,
+      0.292,
+      0.384,
+      0.03,
+      0.171
+    ],
+    "shapley": {
+      "lidar:front": 0.0057,
+      "lidar:front-left": 0.3011,
+      "lidar:left": 0.051,
+      "lidar:back-left": 0.0132,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0016,
+      "lidar:right": 0.1225,
+      "lidar:front-right": -0.3844,
+      "goal_distance": -0.0082,
+      "goal_heading": 0.2223,
+      "motion": -0.0648
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 14,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.6231815218925476,
+    "text": "Chose 'forward' (p=0.50). Main factors: the goal direction (17 deg to the right) supported it (+0.42); the front sector (obstacle at 1.5 m) argued against it (-0.41); the goal distance (6.8 m) argued against it (-0.22).",
+    "probs": [
+      0.505,
+      0.126,
+      0.367,
+      0.001,
+      0.002
+    ],
+    "shapley": {
+      "lidar:front": -0.4134,
+      "lidar:front-left": 0.0574,
+      "lidar:left": 0.076,
+      "lidar:back-left": 0.0593,
+      "lidar:back": -0.012,
+      "lidar:back-right": 0.0213,
+      "lidar:right": 0.0778,
+      "lidar:front-right": 0.0282,
+      "goal_distance": -0.2233,
+      "goal_heading": 0.4168,
+      "motion": 0.1329
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 18,
+    "reasons": [
+      "uncertain"
+    ],
+    "min_dist": 0.5801113843917847,
+    "text": "Chose 'forward' (p=0.50). Main factors: the goal direction (18 deg to the right) supported it (+0.42); the front sector (obstacle at 1.1 m) argued against it (-0.41); the goal distance (6.4 m) argued against it (-0.20).",
+    "probs": [
+      0.502,
+      0.304,
+      0.189,
+      0.001,
+      0.005
+    ],
+    "shapley": {
+      "lidar:front": -0.4058,
+      "lidar:front-left": 0.0747,
+      "lidar:left": 0.081,
+      "lidar:back-left": 0.0608,
+      "lidar:back": -0.0164,
+      "lidar:back-right": 0.0,
+      "lidar:right": -0.0105,
+      "lidar:front-right": 0.0814,
+      "goal_distance": -0.2044,
+      "goal_heading": 0.4213,
+      "motion": 0.1358
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 29,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.30919861793518066,
+    "text": "Chose 'forward' (p=0.95). Main factors: the goal direction (4 deg to the left) supported it (+0.59); the front-left sector (obstacle at 0.3 m) supported it (+0.31); the front sector (obstacle at 1.1 m) argued against it (-0.27).",
+    "probs": [
+      0.947,
+      0.028,
+      0.019,
+      0.001,
+      0.005
+    ],
+    "shapley": {
+      "lidar:front": -0.267,
+      "lidar:front-left": 0.3093,
+      "lidar:left": 0.0784,
+      "lidar:back-left": -0.0022,
+      "lidar:back": -0.0001,
+      "lidar:back-right": 0.0288,
+      "lidar:right": -0.0214,
+      "lidar:front-right": -0.011,
+      "goal_distance": -0.1511,
+      "goal_heading": 0.5888,
+      "motion": 0.111
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 33,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.1918325573205948,
+    "text": "Chose 'forward' (p=0.66). Main factors: the goal direction (4 deg to the left) supported it (+0.48); the front sector (obstacle at 0.9 m) argued against it (-0.35); the left sector (obstacle at 0.2 m) supported it (+0.21).",
+    "probs": [
+      0.656,
+      0.318,
+      0.002,
+      0.017,
+      0.007
+    ],
+    "shapley": {
+      "lidar:front": -0.352,
+      "lidar:front-left": 0.1691,
+      "lidar:left": 0.2144,
+      "lidar:back-left": 0.0019,
+      "lidar:back": -0.0017,
+      "lidar:back-right": -0.0021,
+      "lidar:right": 0.0036,
+      "lidar:front-right": -0.1082,
+      "goal_distance": -0.1542,
+      "goal_heading": 0.4844,
+      "motion": 0.1172
+    }
+  },
+  {
+    "scenario": "gap",
+    "outcome": "success",
+    "t": 49,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.3189459443092346,
+    "text": "Chose 'forward' (p=0.96). Main factors: the goal direction (6 deg to the left) supported it (+0.54); the goal distance (4.0 m) argued against it (-0.14); the current motion (v=0.50 m/s, w=+0.0 rad/s) supported it (+0.13).",
+    "probs": [
+      0.956,
+      0.037,
+      0.007,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": 0.0,
+      "lidar:front-left": 0.0,
+      "lidar:left": 0.1282,
+      "lidar:back-left": 0.0,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0107,
+      "lidar:right": 0.0,
+      "lidar:front-right": 0.0,
+      "goal_distance": -0.1376,
+      "goal_heading": 0.5397,
+      "motion": 0.1314
+    }
+  },
+  {
+    "scenario": "gap",
+    "outcome": "success",
+    "t": 54,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.34792420268058777,
+    "text": "Chose 'forward' (p=0.92). Main factors: the goal direction (7 deg to the left) supported it (+0.55); the current motion (v=0.50 m/s, w=+0.0 rad/s) supported it (+0.14); the goal distance (3.5 m) argued against it (-0.12).",
+    "probs": [
+      0.923,
+      0.061,
+      0.016,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": 0.0,
+      "lidar:front-left": 0.0,
+      "lidar:left": 0.0887,
+      "lidar:back-left": 0.0087,
+      "lidar:back": 0.0,
+      "lidar:back-right": -0.0347,
+      "lidar:right": 0.0,
+      "lidar:front-right": 0.0,
+      "goal_distance": -0.1199,
+      "goal_heading": 0.5549,
+      "motion": 0.1409
+    }
+  },
+  {
+    "scenario": "heldout",
+    "outcome": "success",
+    "t": 33,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.3439086973667145,
+    "text": "Chose 'forward' (p=0.98). Main factors: the goal direction (15 deg to the left) supported it (+0.44); the front-left sector (obstacle at 0.3 m) supported it (+0.26); the front sector (obstacle at 2.8 m) argued against it (-0.14).",
+    "probs": [
+      0.978,
+      0.008,
+      0.013,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": -0.14,
+      "lidar:front-left": 0.2573,
+      "lidar:left": 0.1063,
+      "lidar:back-left": 0.029,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0053,
+      "lidar:right": 0.013,
+      "lidar:front-right": -0.0057,
+      "goal_distance": -0.134,
+      "goal_heading": 0.4389,
+      "motion": 0.1243
+    }
+  },
+  {
+    "scenario": "heldout",
+    "outcome": "success",
+    "t": 37,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.25642797350883484,
+    "text": "Chose 'forward' (p=0.87). Main factors: the goal direction (16 deg to the left) supported it (+0.46); the front sector (obstacle at 2.1 m) argued against it (-0.30); the left sector (obstacle at 0.3 m) supported it (+0.18).",
+    "probs": [
+      0.87,
+      0.121,
+      0.008,
+      0.0,
+      0.0
+    ],
+    "shapley": {
+      "lidar:front": -0.3007,
+      "lidar:front-left": 0.1604,
+      "lidar:left": 0.1837,
+      "lidar:back-left": 0.0554,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.0001,
+      "lidar:right": 0.0319,
+      "lidar:front-right": -0.0185,
+      "goal_distance": -0.117,
+      "goal_heading": 0.4563,
+      "motion": 0.1347
+    }
+  }
+]

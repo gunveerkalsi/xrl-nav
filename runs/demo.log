@@ -1,0 +1,26 @@
+pybullet build time: Nov 15 2026 14:38:04
+ppo_mlp_s0               open      success=1 collision=0 steps=104
+   wrote results/demo/ppo_mlp_s0_open.mp4, results/demo/ppo_mlp_s0_open.gif
+ppo_mlp_s0               corridor  success=1 collision=0 steps=82
+   wrote results/demo/ppo_mlp_s0_corridor.mp4, results/demo/ppo_mlp_s0_corridor.gif
+ppo_mlp_s0               u_trap    success=0 collision=1 steps=14
+   wrote results/demo/ppo_mlp_s0_u_trap.mp4, results/demo/ppo_mlp_s0_u_trap.gif
+ppo_mlp_s0               clutter   success=1 collision=0 steps=89
+   wrote results/demo/ppo_mlp_s0_clutter.mp4, results/demo/ppo_mlp_s0_clutter.gif
+ppo_mlp_s0               gap       success=1 collision=0 steps=87
+   wrote results/demo/ppo_mlp_s0_gap.mp4, results/demo/ppo_mlp_s0_gap.gif
+ppo_mlp_s0               heldout   success=1 collision=0 steps=72
+   wrote results/demo/ppo_mlp_s0_heldout.mp4, results/demo/ppo_mlp_s0_heldout.gif
+ppo_attention_s0         open      success=1 collision=0 steps=101
+   wrote results/demo/ppo_attention_s0_open.mp4, results/demo/ppo_attention_s0_open.gif
+ppo_attention_s0         corridor  success=1 collision=0 steps=82
+   wrote results/demo/ppo_attention_s0_corridor.mp4, results/demo/ppo_attention_s0_corridor.gif
+ppo_attention_s0         u_trap    success=0 collision=0 steps=400
+   wrote results/demo/ppo_attention_s0_u_trap.mp4, results/demo/ppo_attention_s0_u_trap.gif
+ppo_attention_s0         clutter   success=1 collision=0 steps=85
+   wrote results/demo/ppo_attention_s0_clutter.mp4, results/demo/ppo_attention_s0_clutter.gif
+ppo_attention_s0         gap       success=1 collision=0 steps=84
+   wrote results/demo/ppo_attention_s0_gap.mp4, results/demo/ppo_attention_s0_gap.gif
+ppo_attention_s0         heldout   success=1 collision=0 steps=74
+   wrote results/demo/ppo_attention_s0_heldout.mp4, results/demo/ppo_attention_s0_heldout.gif
+wrote results/demo/replay.html

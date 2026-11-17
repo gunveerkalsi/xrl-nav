@@ -1,0 +1,50 @@
+{
+  "model": "runs/dqn_mlp_s0/model.zip",
+  "algo": "dqn",
+  "continuous": false,
+  "attention": false,
+  "n_states_total": 2727,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 0.0035942690446972847,
+  "top_groups_shapley": {
+    "goal_heading": 0.020500000566244125,
+    "lidar:right": 0.00419999985024333,
+    "goal_distance": 0.003700000001117587,
+    "lidar:front-right": 0.003700000001117587,
+    "lidar:front": 0.003700000001117587
+  },
+  "surrogate_fidelity": 0.8266178266178266,
+  "surrogate_balanced_fidelity": 0.5693395997276836,
+  "surrogate_majority_baseline": 0.6788766788766789,
+  "deletion_auc_k10": {
+    "occlusion": 0.0338,
+    "integrated_grads": 0.0327,
+    "group_shapley": 0.0325,
+    "smoothgrad": 0.0302,
+    "gradient": 0.0299,
+    "random": 0.012
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.561,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.079,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.768,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.767,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 22
+}

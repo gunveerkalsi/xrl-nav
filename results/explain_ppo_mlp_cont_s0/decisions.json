@@ -1,0 +1,164 @@
+[
+  {
+    "scenario": "u_trap",
+    "outcome": "timeout",
+    "t": 394,
+    "reasons": [
+      "pre_failure"
+    ],
+    "min_dist": 0.5906897783279419,
+    "text": "Chose 'v=-1.19, w=+0.11'. Main factors: the front-right sector (obstacle at 0.6 m) supported it (+2.27); the goal direction (74 deg to the right) argued against it (-2.04); the front-left sector (obstacle at 0.8 m) argued against it (-0.56).",
+    "probs": [
+      -1.187,
+      0.11
+    ],
+    "shapley": {
+      "lidar:front": -0.3125,
+      "lidar:front-left": -0.5597,
+      "lidar:left": 0.0,
+      "lidar:back-left": 0.0,
+      "lidar:back": -0.0752,
+      "lidar:back-right": 0.1119,
+      "lidar:right": 0.5412,
+      "lidar:front-right": 2.269,
+      "goal_distance": 0.1017,
+      "goal_heading": -2.0363,
+      "motion": -0.0003
+    }
+  },
+  {
+    "scenario": "u_trap",
+    "outcome": "timeout",
+    "t": 398,
+    "reasons": [
+      "pre_failure"
+    ],
+    "min_dist": 0.5885830521583557,
+    "text": "Chose 'v=-1.02, w=-0.07'. Main factors: the front-right sector (obstacle at 0.6 m) supported it (+2.22); the goal direction (77 deg to the right) argued against it (-2.17); the front-left sector (obstacle at 0.9 m) argued against it (-0.58).",
+    "probs": [
+      -1.017,
+      -0.072
+    ],
+    "shapley": {
+      "lidar:front": -0.3034,
+      "lidar:front-left": -0.5781,
+      "lidar:left": 0.0,
+      "lidar:back-left": 0.0,
+      "lidar:back": -0.0301,
+      "lidar:back-right": 0.1111,
+      "lidar:right": 0.4945,
+      "lidar:front-right": 2.2226,
+      "goal_distance": 0.1072,
+      "goal_heading": -2.1675,
+      "motion": 0.001
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 33,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.30517396330833435,
+    "text": "Chose 'v=+1.33, w=-2.25'. Main factors: the front-left sector (obstacle at 0.3 m) argued against it (-1.16); the front-right sector (obstacle at 0.6 m) supported it (+0.82); the goal direction (38 deg to the right) argued against it (-0.72).",
+    "probs": [
+      1.329,
+      -2.247
+    ],
+    "shapley": {
+      "lidar:front": -0.052,
+      "lidar:front-left": -1.1612,
+      "lidar:left": -0.5946,
+      "lidar:back-left": -0.0026,
+      "lidar:back": -0.0541,
+      "lidar:back-right": -0.1022,
+      "lidar:right": -0.2655,
+      "lidar:front-right": 0.8185,
+      "goal_distance": -0.1184,
+      "goal_heading": -0.7165,
+      "motion": -0.0687
+    }
+  },
+  {
+    "scenario": "clutter",
+    "outcome": "success",
+    "t": 37,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.22314712405204773,
+    "text": "Chose 'v=+1.94, w=-1.51'. Main factors: the goal direction (37 deg to the right) argued against it (-1.20); the left sector (obstacle at 0.2 m) argued against it (-0.50); the front-right sector (obstacle at 2.7 m) supported it (+0.46).",
+    "probs": [
+      1.938,
+      -1.514
+    ],
+    "shapley": {
+      "lidar:front": -0.0144,
+      "lidar:front-left": 0.0847,
+      "lidar:left": -0.499,
+      "lidar:back-left": 0.0,
+      "lidar:back": -0.0062,
+      "lidar:back-right": -0.12,
+      "lidar:right": -0.1483,
+      "lidar:front-right": 0.4645,
+      "goal_distance": -0.049,
+      "goal_heading": -1.1963,
+      "motion": -0.1007
+    }
+  },
+  {
+    "scenario": "gap",
+    "outcome": "success",
+    "t": 48,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.34114378690719604,
+    "text": "Chose 'v=+2.54, w=+0.12'. Main factors: the goal direction (4 deg to the left) supported it (+0.93); the left sector (obstacle at 0.3 m) argued against it (-0.76); the goal distance (4.0 m) argued against it (-0.14).",
+    "probs": [
+      2.536,
+      0.124
+    ],
+    "shapley": {
+      "lidar:front": 0.0,
+      "lidar:front-left": 0.0,
+      "lidar:left": -0.758,
+      "lidar:back-left": 0.0,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.1129,
+      "lidar:right": 0.0,
+      "lidar:front-right": 0.0,
+      "goal_distance": -0.1405,
+      "goal_heading": 0.9329,
+      "motion": -0.0932
+    }
+  },
+  {
+    "scenario": "gap",
+    "outcome": "success",
+    "t": 52,
+    "reasons": [
+      "near_miss"
+    ],
+    "min_dist": 0.3303161561489105,
+    "text": "Chose 'v=+2.39, w=-0.34'. Main factors: the goal direction (straight ahead) supported it (+0.83); the left sector (obstacle at 0.3 m) argued against it (-0.57); the back-left sector (obstacle at 0.5 m) argued against it (-0.56).",
+    "probs": [
+      2.386,
+      -0.343
+    ],
+    "shapley": {
+      "lidar:front": 0.0,
+      "lidar:front-left": 0.0,
+      "lidar:left": -0.5666,
+      "lidar:back-left": -0.5605,
+      "lidar:back": 0.0,
+      "lidar:back-right": 0.1092,
+      "lidar:right": 0.0,
+      "lidar:front-right": 0.0,
+      "goal_distance": -0.1111,
+      "goal_heading": 0.8259,
+      "motion": -0.1104
+    }
+  }
+]

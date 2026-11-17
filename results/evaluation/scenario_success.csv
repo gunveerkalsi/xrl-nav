@@ -1,0 +1,7 @@
+agent,open,corridor,u_trap,clutter,gap
+dqn_mlp,1.0,1.0,0.0,1.0,1.0
+potential_field,1.0,1.0,0.0,0.0,1.0
+ppo_attention,1.0,1.0,0.0,1.0,1.0
+ppo_mlp,1.0,1.0,0.0,0.8666666666666667,0.8666666666666667
+ppo_mlp_cont,1.0,1.0,0.0,1.0,1.0
+random,0.0,0.0,0.0,0.0,0.0

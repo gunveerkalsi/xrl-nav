@@ -1,0 +1,11 @@
+{
+  "runs": [
+    "runs/dqn_mlp_s0",
+    "runs/ppo_attention_s0",
+    "runs/ppo_mlp_cont_s0",
+    "runs/ppo_mlp_s0",
+    "runs/ppo_mlp_s1",
+    "runs/ppo_mlp_s2"
+  ],
+  "episodes_per_split": 100
+}

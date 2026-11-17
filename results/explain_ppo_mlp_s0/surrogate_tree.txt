@@ -1,0 +1,70 @@
+fidelity (held-out agreement with policy): 0.841
+balanced fidelity (mean per-action recall): 0.579
+majority-class baseline: 0.806
+
+|--- lin_vel <= 0.40
+|   |--- goal_heading_deg <= -3.62
+|   |   |--- goal_heading_deg <= -53.58
+|   |   |   |--- class: spin-right
+|   |   |--- goal_heading_deg >  -53.58
+|   |   |   |--- class: fwd-right
+|   |--- goal_heading_deg >  -3.62
+|   |   |--- min_dist_back <= 2.32
+|   |   |   |--- class: spin-left
+|   |   |--- min_dist_back >  2.32
+|   |   |   |--- class: spin-left
+|--- lin_vel >  0.40
+|   |--- lin_vel <= 0.85
+|   |   |--- min_dist_front <= 1.38
+|   |   |   |--- min_dist_front-right <= 1.05
+|   |   |   |   |--- class: fwd-left
+|   |   |   |--- min_dist_front-right >  1.05
+|   |   |   |   |--- class: fwd-right
+|   |   |--- min_dist_front >  1.38
+|   |   |   |--- goal_heading_deg <= -41.10
+|   |   |   |   |--- min_dist_front-right <= 1.29
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- min_dist_front-right >  1.29
+|   |   |   |   |   |--- class: fwd-right
+|   |   |   |--- goal_heading_deg >  -41.10
+|   |   |   |   |--- min_dist_front-right <= 2.52
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- min_dist_front-right >  2.52
+|   |   |   |   |   |--- class: forward
+|   |--- lin_vel >  0.85
+|   |   |--- min_dist_front <= 2.82
+|   |   |   |--- goal_heading_deg <= -21.64
+|   |   |   |   |--- min_dist_left <= 1.79
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- min_dist_left >  1.79
+|   |   |   |   |   |--- class: forward
+|   |   |   |--- goal_heading_deg >  -21.64
+|   |   |   |   |--- goal_heading_deg <= 52.10
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- goal_heading_deg >  52.10
+|   |   |   |   |   |--- class: forward
+|   |   |--- min_dist_front >  2.82
+|   |   |   |--- goal_heading_deg <= -34.79
+|   |   |   |   |--- min_dist_front-right <= 3.90
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- min_dist_front-right >  3.90
+|   |   |   |   |   |--- class: forward
+|   |   |   |--- goal_heading_deg >  -34.79
+|   |   |   |   |--- goal_heading_deg <= 35.36
+|   |   |   |   |   |--- class: forward
+|   |   |   |   |--- goal_heading_deg >  35.36
+|   |   |   |   |   |--- class: forward
+
+feature importance (tree):
+lin_vel                 0.470
+goal_heading_deg        0.283
+min_dist_front          0.118
+min_dist_front-right    0.090
+min_dist_left           0.029
+min_dist_back           0.010
+min_dist_back-left      0.000
+min_dist_front-left     0.000
+min_dist_right          0.000
+min_dist_back-right     0.000
+goal_dist               0.000
+ang_vel                 0.000

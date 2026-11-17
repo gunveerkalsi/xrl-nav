@@ -1,0 +1,8 @@
+| scenario | outcome | step | flags | explanation |
+|---|---|---|---|---|
+| u_trap | timeout | 394 | pre_failure | Chose 'v=-1.19, w=+0.11'. Main factors: the front-right sector (obstacle at 0.6 m) supported it (+2.27); the goal direction (74 deg to the right) argued against it (-2.04); the front-left sector (obstacle at 0.8 m) argued against it (-0.56). |
+| u_trap | timeout | 398 | pre_failure | Chose 'v=-1.02, w=-0.07'. Main factors: the front-right sector (obstacle at 0.6 m) supported it (+2.22); the goal direction (77 deg to the right) argued against it (-2.17); the front-left sector (obstacle at 0.9 m) argued against it (-0.58). |
+| clutter | success | 33 | near_miss | Chose 'v=+1.33, w=-2.25'. Main factors: the front-left sector (obstacle at 0.3 m) argued against it (-1.16); the front-right sector (obstacle at 0.6 m) supported it (+0.82); the goal direction (38 deg to the right) argued against it (-0.72). |
+| clutter | success | 37 | near_miss | Chose 'v=+1.94, w=-1.51'. Main factors: the goal direction (37 deg to the right) argued against it (-1.20); the left sector (obstacle at 0.2 m) argued against it (-0.50); the front-right sector (obstacle at 2.7 m) supported it (+0.46). |
+| gap | success | 48 | near_miss | Chose 'v=+2.54, w=+0.12'. Main factors: the goal direction (4 deg to the left) supported it (+0.93); the left sector (obstacle at 0.3 m) argued against it (-0.76); the goal distance (4.0 m) argued against it (-0.14). |
+| gap | success | 52 | near_miss | Chose 'v=+2.39, w=-0.34'. Main factors: the goal direction (straight ahead) supported it (+0.83); the left sector (obstacle at 0.3 m) argued against it (-0.57); the back-left sector (obstacle at 0.5 m) argued against it (-0.56). |

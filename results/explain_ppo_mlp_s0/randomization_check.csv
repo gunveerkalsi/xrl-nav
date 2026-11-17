@@ -1,0 +1,5 @@
+method,spearman_trained_vs_random,passes
+group_shapley,0.5567488750981902,False
+gradient,0.03387931034482758,True
+integrated_grads,0.8135526599084193,False
+occlusion,0.8198644694449861,False

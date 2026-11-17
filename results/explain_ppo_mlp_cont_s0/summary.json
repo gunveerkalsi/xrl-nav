@@ -1,0 +1,47 @@
+{
+  "model": "runs/ppo_mlp_cont_s0/model.zip",
+  "algo": "ppo",
+  "continuous": true,
+  "attention": false,
+  "n_states_total": 2644,
+  "n_states_analysed": 400,
+  "ig_completeness_mean_abs_error": 6.881654553581029e-05,
+  "top_groups_shapley": {
+    "goal_heading": 1.1130000352859497,
+    "lidar:front-right": 0.9290000200271606,
+    "lidar:front-left": 0.4918999969959259,
+    "lidar:left": 0.2628999948501587,
+    "lidar:right": 0.20319999754428864
+  },
+  "deletion_auc_k10": {
+    "gradient": 0.4847,
+    "smoothgrad": 0.471,
+    "group_shapley": 0.3315,
+    "integrated_grads": 0.195,
+    "occlusion": 0.1552,
+    "random": 0.0696
+  },
+  "randomization_check": [
+    {
+      "method": "group_shapley",
+      "spearman_trained_vs_random": 0.672,
+      "passes": false
+    },
+    {
+      "method": "gradient",
+      "spearman_trained_vs_random": 0.167,
+      "passes": true
+    },
+    {
+      "method": "integrated_grads",
+      "spearman_trained_vs_random": 0.799,
+      "passes": false
+    },
+    {
+      "method": "occlusion",
+      "spearman_trained_vs_random": 0.798,
+      "passes": false
+    }
+  ],
+  "n_flagged_decisions": 6
+}
